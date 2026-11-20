@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.LicensePlateScanner" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>

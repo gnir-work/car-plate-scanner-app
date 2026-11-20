@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">סורק לוחיות</string>
+
+    <!-- Common -->
+    <string name="ok">אישור</string>
+    <string name="cancel">ביטול</string>
+    <string name="try_again">ניסיון נוסף</string>
+    <string name="sign_out">התנתקות</string>
+    <string name="back">חזרה</string>
+    <string name="close">סגירה</string>
+    <string name="save">שמירה</string>
+    <string name="add">הוספה</string>
+    <string name="delete">מחיקה</string>
+    <string name="undo">בטל</string>
+    <string name="dismiss">סגירה</string>
+    <string name="unknown">לא ידוע</string>
+    <string name="first_seen">נראה לראשונה</string>
+    <string name="never">אף פעם</string>
+    <string name="loading">טוען…</string>
+    <string name="unknown_company">יצרן לא ידוע</string>
+    <string name="license_plate">לוחית רישוי</string>
+    <string name="company">יצרן</string>
+    <string name="color">צבע</string>
+    <string name="name">שם</string>
+    <string name="plate_saved_as">יישמר כ-%1$s</string>
+
+    <!-- Errors -->
+    <string name="error_network">לא הצלחנו להתחבר ל-Google. בדקו את החיבור לאינטרנט ונסו שוב.</string>
+    <string name="error_google_sheets">שגיאת Google Sheets‏ (%1$d): %2$s</string>
+    <string name="error_generic">משהו השתבש: %1$s</string>
+    <string name="error_duplicate">%1$s כבר נמצא במאגר.</string>
+    <string name="error_plate_gone">%1$s כבר לא נמצא בגיליון. ייתכן שמישהו שינה אותו; משכו ונסו שוב.</string>
+
+    <!-- Sign in -->
+    <string name="signin_feature_sheet">סנכרון רכבים עם גיליון Google</string>
+    <string name="signin_feature_scan">סריקת לוחית רישוי במצלמה</string>
+    <string name="signin_feature_seen">״נראה לאחרונה״ מתעדכן בכל סריקה</string>
+    <string name="signin_button">התחברות עם Google</string>
+    <string name="signin_permissions">‏Google יבקש שתי הרשאות, ושתיהן נחוצות: עריכת הגיליונות שלך ב-Google Sheets, וגישה רק לקובצי ה-Drive שבהם משתמשים באפליקציה. האפליקציה אף פעם לא משנה עם מי גיליון משותף.</string>
+    <string name="signin_cancelled">ההתחברות בוטלה.</string>
+    <string name="signin_network">לא הצלחנו להתחבר ל-Google. בדקו את החיבור לאינטרנט; VPN או מסנן רשת שבודק תעבורת HTTPS עלול לחסום התחברות ל-Google.</string>
+    <string name="signin_failed">ההתחברות ל-Google נכשלה (קוד %1$d): %2$s</string>
+    <string name="signin_unreachable">לא הצלחנו להתחבר ל-Google: %1$s</string>
+    <string name="signin_missing_permissions">האפליקציה צריכה את שתי ההרשאות כדי לעבוד. התחברו שוב והשאירו את שתי התיבות מסומנות במסך של Google.</string>
+    <string name="splash_opening">פותח את הגיליון…</string>
+
+    <!-- Tabs -->
+    <string name="tab_database">מאגר</string>
+    <string name="tab_scanner">סורק</string>
+
+    <!-- Sheet setup and errors -->
+    <string name="sheet_failed_title">לא הצלחנו לפתוח את הגיליון</string>
+    <string name="setup_title">להשתמש ב-\"%1$s\"?</string>
+    <string name="setup_add_plates_tab">להוסיף לשונית \"plates\"</string>
+    <string name="setup_add_header">להוסיף כותרות עמודות ללשונית \"plates\"</string>
+    <string name="setup_add_options_tab">להוסיף לשונית \"options\" עם רשימות צבעים ויצרנים</string>
+    <string name="setup_and">" וגם "</string>
+    <string name="setup_body">כדי להשתמש בגיליון הזה לרשימת הרכבים, האפליקציה תצטרך %1$s. לשוניות קיימות לא ישתנו.</string>
+    <string name="setup_confirm">הגדרה</string>
+    <string name="sheet_incompatible">\"%1$s\" אינו מאגר לוחיות. בלשונית \"plates\" שלו אין עמודה בשם %2$s (שמות העמודות בשורה 1; הסדר שלהן לא משנה).</string>
+    <string name="error_missing_columns">בלשונית \"plates\" של הגיליון כבר אין עמודה בשם %1$s. ייתכן שמישהו שינה את השם ב-Google Sheets; החזירו את השם כדי להמשיך.</string>
+    <string name="sheet_not_database_anymore">\"%1$s\" כבר אינו מאגר לוחיות. בחרו בו שוב כדי להגדיר אותו.</string>
+    <string name="sheet_cant_open">לא ניתן לפתוח את \"%1$s\". ייתכן שהוא נמחק או שהשיתוף שלו בוטל.</string>
+
+    <!-- Sheet picker -->
+    <string name="picker_title">בחירת גיליון</string>
+    <string name="picker_signed_in">מחובר</string>
+    <string name="picker_switch">החלפה</string>
+    <string name="language">שפה</string>
+    <string name="language_system">לפי הגדרות המכשיר</string>
+    <string name="default_sheet_name">לוחיות רישוי</string>
+    <string name="picker_create_title">יצירת גיליון חדש</string>
+    <string name="picker_sheet_name">שם הגיליון</string>
+    <string name="picker_create_note">ייווצר באופן פרטי ב-Drive שלך עם העמודות: לוחית, צבע, יצרן, נראה לאחרונה. שתפו אותו מ-Google Sheets כדי לתת גישה לאחרים.</string>
+    <string name="picker_create_button">יצירה ופתיחה</string>
+    <string name="picker_your_sheets">גיליונות שנפתחו באפליקציה</string>
+    <string name="picker_search">חיפוש</string>
+    <string name="picker_close_search">סגירת החיפוש</string>
+    <string name="picker_none">עדיין אין. צרו גיליון, או פתחו גיליון מקישור.</string>
+    <string name="picker_use">שימוש בגיליון שנבחר</string>
+    <string name="picker_yours">שלך</string>
+    <string name="picker_shared_by">שותף על ידי %1$s</string>
+    <string name="picker_someone">מישהו</string>
+    <string name="picker_from_link">נפתח מקישור</string>
+    <string name="picker_link_title">פתיחה מקישור</string>
+    <string name="picker_link_label">קישור לגיליון</string>
+    <string name="picker_link_note">לגיליון שנוצר מחוץ לאפליקציה או ששותף איתך: ב-Google Sheets הקישו שיתוף ← העתקת הקישור, והדביקו כאן.</string>
+    <string name="picker_link_button">פתיחת הגיליון</string>
+    <string name="picker_link_invalid">זה לא קישור ל-Google Sheets.</string>
+    <string name="picker_link_cant_open">לא ניתן לפתוח את הגיליון. בדקו שהקישור נכון ושהגיליון משותף עם %1$s.</string>
+    <string name="picker_edited">נערך %1$s</string>
+
+    <!-- Times -->
+    <string name="ago_just_now">עכשיו</string>
+    <plurals name="ago_minutes">
+        <item quantity="one">לפני דקה</item>
+        <item quantity="two">לפני %d דקות</item>
+        <item quantity="other">לפני %d דקות</item>
+    </plurals>
+    <plurals name="ago_hours">
+        <item quantity="one">לפני שעה</item>
+        <item quantity="two">לפני שעתיים</item>
+        <item quantity="other">לפני %d שעות</item>
+    </plurals>
+    <string name="ago_yesterday">אתמול</string>
+    <plurals name="ago_days">
+        <item quantity="one">לפני יום</item>
+        <item quantity="two">לפני יומיים</item>
+        <item quantity="other">לפני %d ימים</item>
+    </plurals>
+    <string name="moment_today">היום %1$s</string>
+    <string name="moment_yesterday">אתמול %1$s</string>
+    <string name="pattern_date_short">d \'ב\'MMM</string>
+    <string name="pattern_day_time">d \'ב\'MMM, HH:mm</string>
+    <string name="pattern_date_year">d \'ב\'MMM yyyy</string>
+
+    <!-- Database -->
+    <string name="db_title">רכבים</string>
+    <string name="db_switch_sheet">החלפת גיליון</string>
+    <string name="db_more">אפשרויות נוספות</string>
+    <string name="db_open_in_sheets">פתיחה ב-Google Sheets</string>
+    <string name="db_synced">מסונכרן עם הגיליון</string>
+    <string name="db_push_now">שינויים נשמרים מיד</string>
+    <string name="db_pulled_at">" · נמשך ב-%1$s"</string>
+    <string name="db_pull">משיכה</string>
+    <string name="db_search">חיפוש רכבים</string>
+    <string name="db_clear_search">ניקוי החיפוש</string>
+    <string name="db_sorted">ממוין לפי נראה לאחרונה</string>
+    <plurals name="db_cars">
+        <item quantity="one">רכב אחד</item>
+        <item quantity="two">%d רכבים</item>
+        <item quantity="other">%d רכבים</item>
+    </plurals>
+    <string name="db_shown_of">%1$d מתוך %2$s</string>
+    <string name="db_empty">אין עדיין רכבים. הקישו על ״הוספת רכב״, או סרקו רכב.</string>
+    <string name="db_no_match">אין רכבים שמתאימים ל-\"%1$s\".</string>
+    <string name="db_add_car">הוספת רכב</string>
+    <string name="db_edit_car">עריכת רכב</string>
+    <string name="delete_title">למחוק את %1$s?</string>
+    <string name="delete_body">השורה תימחק מגיליון Google עבור כל מי שמשתמש בו.</string>
+    <plurals name="sharing_people">
+        <item quantity="one">משותף עם אדם אחד. רק הוא יכול לפתוח אותו.</item>
+        <item quantity="two">משותף עם %d אנשים. רק הם יכולים לפתוח אותו.</item>
+        <item quantity="other">משותף עם %d אנשים. רק הם יכולים לפתוח אותו.</item>
+    </plurals>
+    <string name="sharing_domain">כל מי שב-%1$s יכול לפתוח את הגיליון.</string>
+    <string name="sharing_hidden">נפתח מקישור, ולכן האפליקציה לא רואה עם מי הוא משותף. אפשר לבדוק ב-Google Sheets ← שיתוף.</string>
+    <string name="sharing_unknown">שותף איתך. הבעלים קובע מי עוד יכול לפתוח אותו.</string>
+    <string name="sharing_public_web">הגיליון הזה ציבורי ברשת.</string>
+    <string name="sharing_public_link">כל מי שיש לו את הקישור יכול לפתוח את הגיליון.</string>
+    <string name="sharing_fix">ב-Google Sheets, פתחו שיתוף › גישה כללית והגדירו ״מוגבלת״.</string>
+
+    <!-- Car editor and form fields -->
+    <string name="editor_footer">השמירה נכתבת ישירות לגיליון.</string>
+    <string name="editor_delete">מחיקת רכב</string>
+    <string name="editor_last_seen">נראה לאחרונה</string>
+    <string name="editor_set_on_save">יעודכן לעכשיו בשמירה</string>
+    <string name="editor_mark_seen">לעדכן לעכשיו בשמירה</string>
+    <string name="editor_new_color">צבע חדש</string>
+    <string name="field_add_new_company">＋ הוספת יצרן חדש…</string>
+    <string name="field_new_company">יצרן חדש</string>
+    <string name="field_add_new">הוספה</string>
+    <string name="field_add_new_color">הוספת צבע חדש</string>
+    <string name="field_other">אחר…</string>
+    <string name="field_company_search">חיפוש או הקלדת שם חדש</string>
+    <string name="field_add_named">＋ הוספת \"%1$s\"</string>
+
+    <!-- Scanner -->
+    <string name="scan_title">סריקת לוחית</string>
+    <string name="scan_gallery">גלריה</string>
+    <string name="scan_take_photo">צילום</string>
+    <string name="scan_guide_hint">מקמו את הלוחית במסגרת</string>
+    <string name="scan_flash">פלאש</string>
+    <string name="scan_camera_needed">אפשרו גישה למצלמה כדי לסרוק לוחיות, או בחרו תמונה מהגלריה.</string>
+    <string name="scan_allow_camera">אישור גישה למצלמה</string>
+    <string name="scan_open_settings">פתיחת ההגדרות</string>
+    <string name="scan_or_type">או הקלדה ידנית</string>
+    <string name="scan_check">בדיקה</string>
+    <string name="scan_check_again">בדיקה חוזרת של %1$s</string>
+    <string name="scan_recent">סריקות אחרונות</string>
+    <string name="scan_no_plate">לא נמצאה לוחית בתמונה. נסו שוב מקרוב יותר, או הקלידו אותה למטה.</string>
+    <string name="scan_read_failed">לא הצלחנו לקרוא את התמונה: %1$s</string>
+    <string name="scan_reading">קורא את הלוחית…</string>
+    <string name="scan_capture_failed">הצילום נכשל: %1$s</string>
+    <string name="scan_type_whole">הקלידו את מספר הלוחית המלא.</string>
+    <string name="scan_sign_in_again">התחברו שוב כדי לבדוק במאגר.</string>
+
+    <!-- Scan result -->
+    <string name="result_title">תוצאת סריקה</string>
+    <string name="result_back">חזרה לסורק</string>
+    <string name="result_in_db">נמצא במאגר</string>
+    <string name="result_added">נוסף למאגר</string>
+    <string name="result_set_now">״נראה לאחרונה״ עודכן לעכשיו</string>
+    <string name="result_updating">מעדכן ״נראה לאחרונה״…</string>
+    <string name="result_updated">״נראה לאחרונה״ עודכן בגיליון</string>
+    <string name="result_undone">״נראה לאחרונה״ נשאר כמו שהיה</string>
+    <string name="result_update_failed">לא הצלחנו לעדכן ״נראה לאחרונה״: %1$s</string>
+    <string name="result_other_reading">הותאם לפי קריאה אחרת של התמונה. בדקו שזה הרכב הנכון.</string>
+    <string name="result_previously">נראה קודם</string>
+    <string name="result_last_seen_now">נראה לאחרונה (עכשיו)</string>
+    <string name="result_first_seen">נראה לראשונה: %1$s</string>
+    <string name="result_edit">עריכת פרטי הרכב</string>
+    <string name="result_scan_next">סריקת הרכב הבא</string>
+    <string name="result_not_in_db">לא נמצא במאגר</string>
+    <string name="result_add_hint">הוסיפו אותו כדי להתחיל לעקוב אחרי הרכב</string>
+    <string name="result_from_photo">זוהתה מהתמונה. בדקו לפני ההוספה.</string>
+    <string name="result_as_typed">כפי שהקלדתם.</string>
+    <string name="result_add">הוספה למאגר</string>
+    <string name="result_check_failed">לא הצלחנו לבדוק במאגר</string>
+    <string name="result_offline">אין חיבור ל-Google Sheets; התוצאה מבוססת על הנתונים האחרונים שנטענו.</string>
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plate Scanner</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="try_again">Try again</string>
+    <string name="sign_out">Sign out</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="undo">Undo</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="never">Never</string>
+    <string name="unknown">Unknown</string>
+    <string name="first_seen">First seen</string>
+    <string name="loading">Loading…</string>
+    <string name="unknown_company">Unknown company</string>
+    <string name="license_plate">License plate</string>
+    <string name="company">Company</string>
+    <string name="color">Color</string>
+    <string name="name">Name</string>
+    <string name="plate_saved_as">Saved as %1$s</string>
+
+    <!-- Errors -->
+    <string name="error_network">Couldn\'t reach Google. Check the internet connection and try again.</string>
+    <string name="error_google_sheets">Google Sheets error (%1$d): %2$s</string>
+    <string name="error_generic">Something went wrong: %1$s</string>
+    <string name="error_duplicate">%1$s is already in the database.</string>
+    <string name="error_plate_gone">%1$s isn\'t in the sheet any more. Someone may have changed it; pull and try again.</string>
+
+    <!-- Sign in -->
+    <string name="signin_feature_sheet">Pull and push cars to a Google Sheet</string>
+    <string name="signin_feature_scan">Scan a plate with the camera</string>
+    <string name="signin_feature_seen">Last seen is updated on every scan</string>
+    <string name="signin_button">Sign in with Google</string>
+    <string name="signin_permissions">Google will ask for two permissions, and both are needed: editing your Google Sheets, and access to only the Drive files you use with this app. The app never changes who a sheet is shared with.</string>
+    <string name="signin_cancelled">Sign-in was cancelled.</string>
+    <string name="signin_network">Couldn\'t reach Google to sign in. Check the internet connection; a VPN or network filter that inspects HTTPS traffic can block Google sign-in.</string>
+    <string name="signin_failed">Google sign-in failed (code %1$d): %2$s</string>
+    <string name="signin_unreachable">Couldn\'t reach Google: %1$s</string>
+    <string name="signin_missing_permissions">The app needs both permissions to work. Sign in again and leave both boxes ticked on Google\'s screen.</string>
+    <string name="splash_opening">Opening your sheet…</string>
+
+    <!-- Tabs -->
+    <string name="tab_database">Database</string>
+    <string name="tab_scanner">Scanner</string>
+
+    <!-- Sheet setup and errors -->
+    <string name="sheet_failed_title">Couldn\'t open your sheet</string>
+    <string name="setup_title">Use \"%1$s\"?</string>
+    <string name="setup_add_plates_tab">add a \"plates\" tab</string>
+    <string name="setup_add_header">add column headers to the \"plates\" tab</string>
+    <string name="setup_add_options_tab">add an \"options\" tab with color and company lists</string>
+    <string name="setup_and">" and "</string>
+    <string name="setup_body">To use this sheet for the car list, the app will %1$s. Existing tabs aren\'t changed.</string>
+    <string name="setup_confirm">Set up</string>
+    <string name="sheet_incompatible">\"%1$s\" isn\'t a plate database. Its \"plates\" tab has no column named %2$s (row 1 holds the column names; their order doesn\'t matter).</string>
+    <string name="error_missing_columns">The sheet\'s \"plates\" tab no longer has a column named %1$s. Someone may have renamed it in Google Sheets; name it back to continue.</string>
+    <string name="sheet_not_database_anymore">\"%1$s\" is no longer a plate database. Pick it again to set it up.</string>
+    <string name="sheet_cant_open">Can\'t open \"%1$s\" any more. It may have been deleted or unshared.</string>
+
+    <!-- Sheet picker -->
+    <string name="picker_title">Choose a sheet</string>
+    <string name="picker_signed_in">Signed in</string>
+    <string name="picker_switch">Switch</string>
+    <string name="language">Language</string>
+    <string name="language_system">System default</string>
+    <string name="default_sheet_name">Car Plates</string>
+    <string name="picker_create_title">Create new sheet</string>
+    <string name="picker_sheet_name">Sheet name</string>
+    <string name="picker_create_note">Created privately in your Drive with columns: plate, color, company, last seen. Share it from Google Sheets to give others access.</string>
+    <string name="picker_create_button">Create and open</string>
+    <string name="picker_your_sheets">Sheets used in this app</string>
+    <string name="picker_search">Search</string>
+    <string name="picker_close_search">Close search</string>
+    <string name="picker_none">None yet. Create a sheet, or open one from a link.</string>
+    <string name="picker_use">Use selected sheet</string>
+    <string name="picker_yours">Yours</string>
+    <string name="picker_shared_by">Shared by %1$s</string>
+    <string name="picker_someone">someone</string>
+    <string name="picker_from_link">Opened from a link</string>
+    <string name="picker_link_title">Open from a link</string>
+    <string name="picker_link_label">Sheet link</string>
+    <string name="picker_link_note">For a sheet made outside the app, or shared with you: in Google Sheets tap Share → Copy link, then paste it here.</string>
+    <string name="picker_link_button">Open sheet</string>
+    <string name="picker_link_invalid">That isn\'t a Google Sheets link.</string>
+    <string name="picker_link_cant_open">Can\'t open that sheet. Check that the link is right and that the sheet is shared with %1$s.</string>
+    <string name="picker_edited">edited %1$s</string>
+
+    <!-- Times. Patterns are java.time DateTimeFormatter patterns. -->
+    <string name="ago_just_now">just now</string>
+    <plurals name="ago_minutes">
+        <item quantity="one">%d min ago</item>
+        <item quantity="other">%d min ago</item>
+    </plurals>
+    <plurals name="ago_hours">
+        <item quantity="one">%d h ago</item>
+        <item quantity="other">%d h ago</item>
+    </plurals>
+    <string name="ago_yesterday">yesterday</string>
+    <plurals name="ago_days">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <string name="moment_today">Today %1$s</string>
+    <string name="moment_yesterday">Yesterday %1$s</string>
+    <string name="pattern_date_short">d MMM</string>
+    <string name="pattern_day_time">d MMM, HH:mm</string>
+    <string name="pattern_date_year">d MMM yyyy</string>
+
+    <!-- Database -->
+    <string name="db_title">Cars</string>
+    <string name="db_switch_sheet">Switch sheet</string>
+    <string name="db_more">More options</string>
+    <string name="db_open_in_sheets">Open in Google Sheets</string>
+    <string name="db_synced">Synced with sheet</string>
+    <string name="db_push_now">Changes push right away</string>
+    <string name="db_pulled_at">" · pulled %1$s"</string>
+    <string name="db_pull">Pull</string>
+    <string name="db_search">Search cars</string>
+    <string name="db_clear_search">Clear search</string>
+    <string name="db_sorted">Sorted by last seen</string>
+    <plurals name="db_cars">
+        <item quantity="one">%d car</item>
+        <item quantity="other">%d cars</item>
+    </plurals>
+    <string name="db_shown_of">%1$d of %2$s</string>
+    <string name="db_empty">No cars yet. Tap Add car, or scan one.</string>
+    <string name="db_no_match">No cars match \"%1$s\".</string>
+    <string name="db_add_car">Add car</string>
+    <string name="db_edit_car">Edit car</string>
+    <string name="delete_title">Delete %1$s?</string>
+    <string name="delete_body">This removes the row from the Google Sheet for everyone who uses it.</string>
+    <plurals name="sharing_people">
+        <item quantity="one">Shared with %d person. Only they can open it.</item>
+        <item quantity="other">Shared with %d people. Only they can open it.</item>
+    </plurals>
+    <string name="sharing_domain">Anyone in %1$s can open this sheet.</string>
+    <string name="sharing_hidden">Opened from a link, so the app can\'t see who it\'s shared with. Check in Google Sheets → Share.</string>
+    <string name="sharing_unknown">Shared with you. The owner controls who else can open it.</string>
+    <string name="sharing_public_web">This sheet is public on the web.</string>
+    <string name="sharing_public_link">Anyone with the link can open this sheet.</string>
+    <string name="sharing_fix">In Google Sheets, open Share › General access and set it to Restricted.</string>
+
+    <!-- Car editor and form fields -->
+    <string name="editor_footer">Save writes straight to the sheet.</string>
+    <string name="editor_delete">Delete car</string>
+    <string name="editor_last_seen">Last seen</string>
+    <string name="editor_set_on_save">Set to now when you save</string>
+    <string name="editor_mark_seen">Set to now when I save</string>
+    <string name="editor_new_color">New color</string>
+    <string name="field_add_new_company">＋ Add new company…</string>
+    <string name="field_new_company">New company</string>
+    <string name="field_add_new">Add new</string>
+    <string name="field_add_new_color">Add new color</string>
+    <string name="field_other">Other…</string>
+    <string name="field_company_search">Search or type a new one</string>
+    <string name="field_add_named">＋ Add \"%1$s\"</string>
+
+    <!-- Scanner -->
+    <string name="scan_title">Scan plate</string>
+    <string name="scan_gallery">Gallery</string>
+    <string name="scan_take_photo">Take photo</string>
+    <string name="scan_guide_hint">Fit the plate in the frame</string>
+    <string name="scan_flash">Flash</string>
+    <string name="scan_camera_needed">Allow camera access to scan plates, or pick a photo from the gallery.</string>
+    <string name="scan_allow_camera">Allow camera</string>
+    <string name="scan_open_settings">Open settings</string>
+    <string name="scan_or_type">or type it</string>
+    <string name="scan_check">Check</string>
+    <string name="scan_check_again">Check %1$s again</string>
+    <string name="scan_recent">Recent scans</string>
+    <string name="scan_no_plate">No plate found in that photo. Try again closer, or type it below.</string>
+    <string name="scan_read_failed">Couldn\'t read that photo: %1$s</string>
+    <string name="scan_reading">Reading the plate…</string>
+    <string name="scan_capture_failed">Couldn\'t take the photo: %1$s</string>
+    <string name="scan_type_whole">Type the whole plate number.</string>
+    <string name="scan_sign_in_again">Sign in again to check the database.</string>
+
+    <!-- Scan result -->
+    <string name="result_title">Scan result</string>
+    <string name="result_back">Back to scanner</string>
+    <string name="result_in_db">In database</string>
+    <string name="result_added">Added to database</string>
+    <string name="result_set_now">Last seen set to now</string>
+    <string name="result_updating">Updating last seen…</string>
+    <string name="result_updated">Last seen updated in the sheet</string>
+    <string name="result_undone">Last seen left as it was</string>
+    <string name="result_update_failed">Couldn\'t update last seen: %1$s</string>
+    <string name="result_other_reading">Matched another reading of the photo. Check it\'s the right car.</string>
+    <string name="result_previously">Previously seen</string>
+    <string name="result_last_seen_now">Last seen (now)</string>
+    <string name="result_first_seen">First seen %1$s</string>
+    <string name="result_edit">Edit car details</string>
+    <string name="result_scan_next">Scan next car</string>
+    <string name="result_not_in_db">Not in database</string>
+    <string name="result_add_hint">Add it to start tracking this car</string>
+    <string name="result_from_photo">Read from photo. Check it before adding.</string>
+    <string name="result_as_typed">As you typed it.</string>
+    <string name="result_add">Add to database</string>
+    <string name="result_check_failed">Couldn\'t check the database</string>
+    <string name="result_offline">Couldn\'t reach Google Sheets; this is based on the last loaded data.</string>
+</resources>

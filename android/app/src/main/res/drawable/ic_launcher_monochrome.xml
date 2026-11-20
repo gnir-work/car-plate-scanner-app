@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher icon (monochrome): used for Android 13+ themed icons. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#FF000000" android:pathData="M32.5,46H36V62H32.5A2.5,2.5 0,0 1,30 59.5V48.5A2.5,2.5 0,0 1,32.5 46Z" />
+    <path android:strokeColor="#FF000000" android:strokeWidth="1.4" android:pathData="M32.5,46H75.5A2.5,2.5 0,0 1,78 48.5V59.5A2.5,2.5 0,0 1,75.5 62H32.5A2.5,2.5 0,0 1,30 59.5V48.5A2.5,2.5 0,0 1,32.5 46Z" />
+    <path android:fillColor="#FF000000" android:pathData="M38.5,50.5h3v7h-3zM42.5,50.5h3v7h-3zM51.5,50.5h3v7h-3zM55.5,50.5h3v7h-3zM59.5,50.5h3v7h-3zM68.5,50.5h3v7h-3zM72.5,50.5h3v7h-3zM47.5,53.2h2v1.6h-2zM64.5,53.2h2v1.6h-2z" />
+    <path android:strokeColor="#FF000000" android:strokeWidth="3" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M26,47V39H34M74,39H82V47M82,61V69H74M34,69H26V61" />
+</vector>

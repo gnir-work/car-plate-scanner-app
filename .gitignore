@@ -1,0 +1,5 @@
+.DS_Store
+
+# Sample photos stay local (real plates); only the public sample is committed.
+resources/*
+!resources/simple-license.jpg
